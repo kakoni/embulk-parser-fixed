@@ -21,7 +21,7 @@ Can be used to transform `FirstSecond Third` line to `{key: "First", key2: "Seco
 in:
   type: any file input plugin type
   parser:
-    type: unpack
+    type: fixed
     columns:
     - {name: first, type: string, pos: 0..1}
     - {name: second, type: string, pos: 3..7}
